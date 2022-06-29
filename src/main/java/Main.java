@@ -1,8 +1,8 @@
-import ru.netology.sqr.SQRService;
+import ru.netology.sqr.SqrService;
 
 public class Main {
     public static void main(String[] args) {
-        SQRService service = new SQRService();
+        SqrService service = new SqrService();
         System.out.println(service.searchForSqr(200, 300));
 
     }

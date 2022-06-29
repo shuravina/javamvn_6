@@ -1,13 +1,12 @@
 package ru.netology.sqr;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class SQRServiseTest {
+public class SqrServiceTest {
 
     @Test
     public void check1() {
-        SQRService service = new SQRService();
+        SqrService service = new SqrService();
         int expected = 3;
         int actual = service.searchForSqr(200, 300);
 
@@ -18,7 +17,7 @@ public class SQRServiseTest {
 
     @Test
     public void Check2() {
-        SQRService service = new SQRService();
+        SqrService service = new SqrService();
         int expected = 1;
         int actual = service.searchForSqr(100, 100);
 
@@ -29,7 +28,7 @@ public class SQRServiseTest {
 
     @Test
     public void Check3() {
-        SQRService service = new SQRService();
+        SqrService service = new SqrService();
         int expected = 0;
         int actual = service.searchForSqr(10, 90);
 
